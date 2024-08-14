@@ -1,0 +1,65 @@
+.fieldContainer{
+    @apply 
+         /* bg-blue-500 */
+            w-11/12
+            flex
+            flex-col
+            gap-[30px]
+            /* h-fit */
+}
+
+.coverContainer{
+    @apply w-full
+           h-full
+           flex
+           /* bg-cyan-300 */
+}
+
+.sliderContainer{
+    @apply w-2/4
+           h-full
+           flex
+           flex-col
+           /* justify-between */
+           /* bg-amber-500 */
+}
+
+.graphContainer{
+    @apply w-2/4
+           h-[300px]
+           flex
+           justify-center
+           /* bg-rose-400 */
+}
+
+.valuesContainer{
+    @apply w-full
+           h-[50px]
+           flex
+           justify-between
+           items-center
+           text-black
+           /* flex-wrap */
+}
+
+.displayTextContainer{
+    @apply 
+         /* bg-orange-700 */
+            /* w-[200px] */
+            flex
+            items-center
+            gap-[10px]
+            
+}
+.displayFieldValue{
+    @apply w-[110px]
+    h-[30px]
+    flex
+    px-2
+    py-2
+    justify-start
+    items-center
+    rounded-md
+    text-green-800
+    bg-green-300
+}

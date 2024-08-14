@@ -1,0 +1,49 @@
+.sliderMainContainer{
+    @apply w-full
+           py-[3px]
+           flex
+           flex-col
+           justify-center
+           /* bg-purple-600 */
+           h-[100px]
+}
+
+.sliderHeader{
+    @apply w-full
+           h-1/2
+           flex
+           items-center
+           justify-between
+           /* bg-blue-900 */
+           text-black
+}
+
+.sliderField{
+       @apply w-[110px] 
+              h-[30px] 
+              flex 
+              /* justify-end  */
+              items-center 
+              px-1
+              rounded-md 
+              text-green-800
+               bg-green-300 
+               focus:outline-none
+               text-right
+}
+
+.sliderFieldInput {
+       @apply w-[90%]
+              h-full 
+              flex 
+              justify-end 
+              items-center 
+              px-2 
+              py-1 
+              rounded-md 
+              text-green-800
+               bg-green-300 
+               focus:outline-none
+               text-right
+}
+     

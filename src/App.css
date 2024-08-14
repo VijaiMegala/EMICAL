@@ -1,0 +1,13 @@
+.outerContainer {
+  @apply min-h-screen 
+         /* w-screen  */
+         /* overflow-y-scroll */
+         h-fit
+         bg-green-400
+         flex
+         flex-col
+         items-center
+         justify-center
+         py-[30px]
+         /* py-[30px] */
+}

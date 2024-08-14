@@ -1,0 +1,81 @@
+.tableContainer{
+    @apply w-full
+           flex
+           flex-col
+           gap-[10px]
+}
+.openContainer{
+    @apply w-full
+           h-[50px]
+           /* bg-cyan-300 */
+           flex
+           flex-col
+           justify-center
+           items-center
+           px-[30px]
+           py-[30px]
+           gap-2
+}
+.animationContainer{
+    @apply 
+           w-full
+           h-[20px]
+           flex
+           justify-center
+           /* bg-orange-500  */            
+}
+.tableMainContainer{
+    @apply w-full
+           max-h-0
+           /* bg-rose-700 */
+           overflow-hidden 
+           transition-all
+           duration-500
+           px-[30px]
+           cursor-pointer
+}
+.tableMainContainer.open {
+    @apply max-h-fit
+}
+
+.yearContainer{
+    @apply w-full
+           h-[70px]
+           px-[30px]
+           bg-white
+           flex
+           items-center
+           justify-between
+           border-b-[1px]
+           border-gray-400
+           rounded-b-lg
+           text-green-600
+           
+}
+
+.tableValueContainer {
+    @apply w-full 
+           max-h-0
+           flex 
+           justify-center 
+           overflow-hidden  
+           transition-all 
+           duration-500  
+           rounded-b-lg
+           bg-green-800;
+  }
+  
+  .tableValueContainer.open {
+    @apply  max-h-fit
+            py-[30px]
+            rounded-b-lg
+  }
+
+  .tableStyleContainer{
+    @apply w-[90%]
+           h-fit
+           /* max-h-[45%] */
+           bg-yellow-400
+           overflow-hidden
+           rounded-lg
+  }

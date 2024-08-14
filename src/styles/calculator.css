@@ -1,0 +1,13 @@
+.mainContainer{
+    @apply w-3/4
+           bg-white
+           min-h-[400px]
+           /* h-fit */
+           rounded-3xl
+           flex
+           flex-col
+           items-center
+           py-[30px]
+           gap-[10px]
+           
+}
